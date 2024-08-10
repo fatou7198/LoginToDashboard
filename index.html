@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!--<link rel="stylesheet" href="styles.css">-->
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Login</h2>
+            <form id="login-form">
+                <input type="text" placeholder="Username" required><br>
+                <input type="password" placeholder="Password" required><br>
+                <button type="submit">Login</button>
+            </form>
+            <p>You don't have an account? <a href="#" id="show-register">Register</a></p>
+
+            <h2>Register</h2>
+            <form id="register-form">
+                <input type="text" placeholder="Username" required><br>
+                <input type="password" placeholder="Password" required><br>
+                <button type="submit">Register</button>
+            </form>
+            <p>Already have an account? <a href="#" id="show-login">Login</a></p>
+        </div>
+        
+        <div class="main-content">
+            <h1>Dashboard</h1>
+
+            <div class="widgets">
+                <div class="widget">
+                    <h3>Widget 1: Login Form</h3>
+                    <p>This widget contains the login form, where users can enter their username and password to access the dashboard.</p>
+                </div>
+                <div class="widget">
+                    <h3>Widget 2: Registration Form</h3>
+                    <p>This widget provides a registration form for new users to create an account by providing their username and password.</p>
+                </div>
+                <div class="widget">
+                    <h3>Widget 3: Sidebar </h3>
+                    <p>This widget includes the registration and logging</p>
+                </div>
+            </div>
+
+            <div class="chart">
+                <h2>Chart Placeholder</h2>
+                <p>Chart content will go here.</p>
+            </div>
+        </div>
+
+        <div class="links">
+            <h3 id="names-list-title">Names List</h3>
+            <ul id="names-list" class="hidden">
+                <li>sammy</li>
+                <li>***********</li>
+                <li>***********</li>
+            </ul>
+
+            <button class="logout">Logout</button>
+        </div>
+    </div>
+    
+    <!--<script src="script.js"></script>-->
+</body>
+</html>
