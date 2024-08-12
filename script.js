@@ -37,52 +37,6 @@ function logout() {
 }
 /*******chart-bar********/
 
-// var barChartOptions = {
-//   series: [
-//     {
-//       data: [19, 9, 29, 79],
-//     },
-//   ],
-//   chart: {
-//     type: "bar",
-//     height: 350,
-//     toolbar: {
-//       show: false,
-//     },
-//   },
-
-//   colors: ["blue", "red", "green", "yellow"],
-//   plotOptions: {
-//     bar: {
-//       distributed: true,
-//       borderRadius: 4,
-//       borderRadiusApplication: "end",
-//       horizontal: false, // Fixed typo
-//       columnWidth: "40%",
-//     },
-//   },
-//   dataLabels: {
-//     enabled: false,
-//   },
-//   legend: {
-//     show: false,
-//   },
-
-//   xaxis: {
-//     categories: ["gitplus", "Sammy", "Leslie", "Fatou"],
-//   },
-//   yaxis: {
-//     title: {
-//       text: "count",
-//     },
-//   },
-// };
-
-// var barChart = new ApexCharts(
-//   document.querySelector("#bar-chart"),
-//   barChartOptions
-// );
-// barChart.render();
 document.addEventListener("DOMContentLoaded", function () {
   var barChartOptions = {
     series: [
